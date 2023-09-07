@@ -1,0 +1,31 @@
+.tecnoligias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 30px;
+    background-color: #3d5a80;
+
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    transform: scale(1.1);
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 30px;
+    
+}
+
+.tecnologias{
+    text-align: center;
+    padding: 50px;
+    
+}
+
+hr{
+    color: black;
+}

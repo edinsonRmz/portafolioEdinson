@@ -1,0 +1,151 @@
+.hero {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px 100px 100px;
+    background-color: #3d5a80;
+    overflow: hidden;
+    position: relative;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 0;
+    border-radius: 0px 0px 0px 0px;
+  }
+  .content {
+      flex-shrink: 0;
+      width: 1000px;
+      height: min-content; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 100%;
+      overflow: hidden;
+      position: relative;
+      padding: 0px 0px 0px 0px;
+      align-content: center;
+      flex-wrap: nowrap;
+      gap: 60;
+      border-radius: 0px 0px 0px 0px;
+    }
+  
+    .edinson-ramirez-a {
+      flex-shrink: 0;
+      width: 100%;
+      height: auto; 
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      word-break: break-word;
+      max-width: 800px;
+      overflow: visible;
+      position: relative;
+      font-weight: 400;
+      font-style: normal;
+      font-family: "League Gothic", "League Gothic Placeholder", sans-serif;
+      color: #e0fbfc;
+      font-size: 80px;
+      letter-spacing: 0em;
+      line-height: 1.1;
+      text-align: center;
+    }
+  
+    .buttons {
+      flex-shrink: 0;
+      width: 100%;
+      height: min-content; 
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+      padding: 0px 0px 0px 0px;
+      align-content: center;
+      flex-wrap: nowrap;
+      gap: 10;
+      border-radius: 0px 0px 0px 0px;
+    }
+  
+    .button1 {
+      box-sizing: border-box;
+      flex-shrink: 0;
+      width: min-content; 
+      height: min-content;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px 10px 20px;
+      background-color: #e0fbfc;
+      overflow: hidden;
+      position: relative;
+      align-content: center;
+      flex-wrap: nowrap;
+      gap: 10;
+      border-radius: 7px;
+    }
+  
+    .ver-proyectos {
+      flex-shrink: 0;
+      width: auto; 
+      height: auto; 
+      white-space: pre;
+      overflow: visible;
+      position: relative;
+      font-weight: 400;
+      font-style: normal;
+      font-family: "Martian Mono", monospace;
+      color: #293241;
+      font-size: 16px;
+      letter-spacing: 0em;
+      line-height: 1.5;
+      text-align: left;
+    }
+  
+    .button {
+      box-sizing: border-box;
+      flex-shrink: 0;
+      width: min-content; 
+      height: min-content; 
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 20px 10px 20px;
+      background-color: #000000;
+      overflow: hidden;
+      position: relative;
+      align-content: center;
+      flex-wrap: nowrap;
+      gap: 10;
+      border-radius: 7px;
+    }
+  
+    .contacto {
+      flex-shrink: 0;
+      width: auto; 
+      height: auto; 
+      white-space: pre;
+      overflow: visible;
+      position: relative;
+      font-weight: 400;
+      font-style: normal;
+      font-family: "Martian Mono", monospace;
+      color: #98c1d9;
+      font-size: 16px;
+      letter-spacing: 0em;
+      line-height: 1.5;
+      text-align: left;
+    }
+    .center-vertically {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center; 
+      height: 100%; 
+    }
